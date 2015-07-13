@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-camera_active {
+    width: 101px;
+    height: 75px;
+    background-position: -5px -5px;
+}
+
+.sprite-camera_hover {
+    width: 101px;
+    height: 75px;
+    background-position: -5px -90px;
+}
+
+.sprite-config_active {
+    width: 106px;
+    height: 106px;
+    background-position: -5px -175px;
+}
+
+.sprite-config_hover {
+    width: 106px;
+    height: 106px;
+    background-position: -5px -291px;
+}
+
+.sprite-galery_active {
+    width: 108px;
+    height: 102px;
+    background-position: -5px -407px;
+}
+
+.sprite-galery_hover {
+    width: 108px;
+    height: 102px;
+    background-position: -5px -519px;
+}
+
+.sprite-mac_active {
+    width: 109px;
+    height: 96px;
+    background-position: -5px -631px;
+}
+
+.sprite-mac_hover {
+    width: 109px;
+    height: 96px;
+    background-position: -5px -737px;
+}

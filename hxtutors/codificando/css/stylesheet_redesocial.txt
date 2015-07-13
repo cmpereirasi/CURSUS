@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-email_active {
+    width: 53px;
+    height: 39px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb_active {
+    width: 13px;
+    height: 30px;
+    background-position: -5px -54px;
+}
+
+.sprite-fb_hover {
+    width: 13px;
+    height: 30px;
+    background-position: -5px -94px;
+}
+
+.sprite-inst_active {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -134px;
+}
+
+.sprite-inst_hover {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -174px;
+}
+
+.sprite-twiter_active {
+    width: 30px;
+    height: 24px;
+    background-position: -5px -214px;
+}
+
+.sprite-twiter_hover {
+    width: 30px;
+    height: 24px;
+    background-position: -5px -248px;
+}
+
+.sprite-what_active {
+    width: 53px;
+    height: 53px;
+    background-position: -5px -282px;
+}
