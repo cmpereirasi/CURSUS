@@ -2,6 +2,7 @@ body{
 
 	> header {
 
+		@include container-fixed();
 		padding: 20px;
 	}
 

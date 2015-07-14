@@ -1,2 +1,2 @@
-body>header{padding:20px}body input.form-control{height:43px;font:14px "Oxygen";color:#857f7f;background:#e6e6e6;margin-top:5px}
+body>header{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;padding:20px}body>header:before,body>header:after{content:" ";display:table}body>header:after{clear:both}body input.form-control{height:43px;font:14px "Oxygen";color:#857f7f;background:#e6e6e6;margin-top:5px}
 /*# sourceMappingURL=style.css.map */
