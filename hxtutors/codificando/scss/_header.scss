@@ -20,24 +20,27 @@ body{
 
 		 		@include make-md-column(4);
 		 		@include make-md-column-offset(5);
+		 		.search-container-input{
+
+					height: 43px;
+					font: 14px $font_main;
+					color: #857f7f;
+					background: #e6e6e6;
+					margin-top: 9px;
+
+				}
 
 		 	}
 
-		 		
 		 	}
-		 
 	
-	
-
-	input.form-control{
-
-		height: 43px;
-		font: 14px $font_main;
-		color: #857f7f;
-		background: #e6e6e6;
-		margin-top: 0px;
-
-
+	}
+> #navegacao{
+	> .container{
+		> #navegacao_container {
+			
 		}
 	}
+}
+ 
 }

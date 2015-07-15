@@ -38,11 +38,11 @@ body > header {
       @media (min-width: 992px) {
         body > header > .content > .search-container {
           margin-left: 41.66667%; } }
-  body > header input.form-control {
-    height: 43px;
-    font: 14px "Oxygen";
-    color: #857f7f;
-    background: #e6e6e6;
-    margin-top: 0px; }
+      body > header > .content > .search-container .search-container-input {
+        height: 43px;
+        font: 14px "Oxygen";
+        color: #857f7f;
+        background: #e6e6e6;
+        margin-top: 9px; }
 
 /*# sourceMappingURL=style.css.map */
