@@ -2,9 +2,32 @@ body{
 
 	> header {
 
-		@include container-fixed();
 		padding: 20px;
-	}
+
+		> .content {
+		 	@include make-row;
+		 	
+		 	> .logo_container {
+		 		@include make-md-column(3);
+		 		
+		 		> .logo_container_logo {
+		 		@include make-md-column(10);
+
+		 	}
+		 }
+		 		
+		 	> .search-container {
+
+		 		@include make-md-column(4);
+		 		@include make-md-column-offset(5);
+
+		 	}
+
+		 		
+		 	}
+		 
+	
+	
 
 	input.form-control{
 
@@ -12,8 +35,9 @@ body{
 		font: 14px $font_main;
 		color: #857f7f;
 		background: #e6e6e6;
-		margin-top: 5px;
-	
+		margin-top: 0px;
 
+
+		}
 	}
 }
