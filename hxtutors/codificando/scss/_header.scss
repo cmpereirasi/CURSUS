@@ -36,9 +36,51 @@ body{
 	
 	}
 > #navegacao{
-	> .container{
+	background: #C72327;
+
+	 .container{
 		> #navegacao_container {
-			
+			@include make-md-column(12);
+			>.navbar {
+				border: none;
+				border-radius: 0px;
+				background: #C72327;
+				margin-bottom: 0;
+				.navbar-collapse {
+
+					border: none;
+					
+					> ul.navbar-nav{
+						> li {
+
+							&.active {
+
+								> a {
+
+									background: #ab191c;
+
+								}
+							}
+							a {
+								font: 14px $font_main;
+								color: #FFF;
+								&:hover{
+									background: #ab191c;
+								}
+								
+							}
+
+							a{
+
+							}
+						
+				}
+				
+					}
+				}
+
+			}
+
 		}
 	}
 }
