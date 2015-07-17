@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+	body{
+		> header {
+			> .content {
+			 	> .logo_container {
+			 		> .logo_container_logo {
+			 			margin-left: 10%;
+			 			margin-right: 10%;
+			 		}
+			 	}
+			}
+		}
+	}
+}
