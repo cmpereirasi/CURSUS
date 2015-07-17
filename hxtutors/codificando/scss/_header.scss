@@ -7,6 +7,7 @@ body{
 		 		@include make-md-column(3);
 		 		> .logo_container_logo {
 		 		@include make-md-column(10);
+		 		@include make-md-column-offset(1);
 		 	}
 		 }
 		 	> .search-container {
