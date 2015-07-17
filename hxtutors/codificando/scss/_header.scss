@@ -1,39 +1,26 @@
 body{
-
 	> header {
-
 		padding: 20px;
-
 		> .content {
 		 	@include make-row;
-		 	
 		 	> .logo_container {
 		 		@include make-md-column(3);
-		 		
 		 		> .logo_container_logo {
 		 		@include make-md-column(10);
-
 		 	}
 		 }
-		 		
 		 	> .search-container {
-
 		 		@include make-md-column(4);
 		 		@include make-md-column-offset(5);
 		 		.search-container-input{
-
 					height: 43px;
 					font: 14px $font_main;
 					color: #857f7f;
 					background: #e6e6e6;
 					margin-top: 9px;
-
 				}
-
 		 	}
-
-		 	}
-	
+		}
 	}
 > #navegacao{
 	background: #C72327;
@@ -47,40 +34,27 @@ body{
 				background: #C72327;
 				margin-bottom: 0;
 				.navbar-collapse {
-
 					border: none;
-					
 					> ul.navbar-nav{
 						> li {
-
 							&.active {
-
 								> a {
-
 									background: #ab191c;
-
 								}
 							}
 							a {
 								font: 14px $font_main;
 								color: #FFF;
 								&:hover{
-									background: #ab191c;
+								background: #ab191c;
 								}
-								
 							}
-
 							a{
-
 							}
-						
-				}
-				
+						}
 					}
 				}
-
 			}
-
 		}
 	}
 }
