@@ -4,18 +4,18 @@ body{
 		> .content {
 		 	@include make-row;
 		 	> .logo_container {
-		 		@include make-md-column(3);
-		 		@include make-sm-column(4);
 		 		@include make-xs-column(12);
+		 		@include make-md-column(4);
+		 		@include make-sm-column(4);
 		 		> .logo_container_logo {
 		 			width: 80%;
 		 			margin-left: 20%;
 		 	}
 		 }
 		 	> .search-container {
+		 		@include make-xs-column(12);
 		 		@include make-md-column(4);
 		 		@include make-sm-column(5);
-		 		@include make-xs-column(12);
 		 		@include make-md-column-offset(5);
 		 		@include make-sm-column-offset(3);
 		 		@include make-xs-column-offset(0);
@@ -31,7 +31,6 @@ body{
 	}
 > #navegacao{
 	background: #C72327;
-
 	 .container{
 		> #navegacao_container {
 			@include make-md-column(12);
@@ -40,23 +39,25 @@ body{
 				border-radius: 0px;
 				background: #C72327;
 				margin-bottom: 0;
+				
 				.navbar-collapse {
-					border: none;
+					height: 64px;
 					> ul.navbar-nav{
+						margin: 0px;
 						> li {
 							&.active {
-								> a {
+								>a{
 									background: #ab191c;
 								}
 							}
 							a {
-								font: 14px $font_main;
+								font: 15px $font_main;
 								color: #FFF;
+								border: 0px;
 								&:hover{
 								background: #ab191c;
+								margin-bottom: 0px;
 								}
-							}
-							a{
 							}
 						}
 					}
