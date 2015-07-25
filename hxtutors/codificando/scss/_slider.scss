@@ -1,5 +1,10 @@
-#slider .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+#slider{
+	margin-bottom: 60px;
+	.iterm{
+		img{
+			display: block;
+    		width: 100%;
+    		height: auto;
+		}
+	}
 }
