@@ -1,0 +1,28 @@
+a{
+	outline: none;
+	img{
+		border: none;
+	}
+}
+.container{
+	> .content{
+		> h1.header{
+			margin: 0 0 30px;
+			font: bold 18px $font_main;
+			position: relative;
+			color: $header_color;
+			//line-height: 30px;
+			text-indent: 10px;
+			> span {
+				display: inline-block;
+				width: 5px;
+				height: 21px;
+				background: $header_tarja_color;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				
+			}
+		}
+	}
+}
